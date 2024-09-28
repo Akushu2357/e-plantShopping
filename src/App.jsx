@@ -33,7 +33,7 @@ function App() {
 
       </div>
       <div className={`product-list-container ${showProductList ? 'visible' : ''}`}>
-        <ProductList />
+        <ProductList setShowProductList={ setShowProductList }/>
       </div>
     </div>
   );
